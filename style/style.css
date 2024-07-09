@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.button {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px 20px;
+    border: 1px solid black;
+    border-radius: 5%;
+    background-color: white;
+    
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bolder;
+}
