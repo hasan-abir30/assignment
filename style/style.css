@@ -214,8 +214,7 @@ body {
 }
 
 .frame {
-    margin: 10px auto;
-    border: 1px solid black;
+    margin-top: 15px;
     border-radius: 16px;
 }
 
@@ -301,7 +300,7 @@ body {
 .last-section {
     max-width: 1050px;
     height: 310px;
-    background-image: url("../assets/handshake.jpg");
+    background-image: linear-gradient(to right,rgba(0,0,0,0.7),rgba(255,255,255,0), rgba(0,0,0,0.7)),url("../assets/handshake.jpg");
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 16px;
@@ -352,15 +351,16 @@ input[type="button"] {
 }
 
 /* footer style */
-.footer-content{
-    
+.footer-content {
+
     margin-top: 100px;
     margin-bottom: 25px;
     border-radius: 16px;
-    background-color:rgb(238, 233, 233);
-    
+    background-color: rgb(238, 233, 233);
+
 }
-.footer-style{
+
+.footer-style {
     display: flex;
     justify-content: center;
     align-items: center;
