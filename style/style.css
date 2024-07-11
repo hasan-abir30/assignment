@@ -80,7 +80,92 @@ body {
     border-radius: 8px;
 }
 
+/* This is Container section style */
+.container {
+    max-width: 1200px;
+    height: 1255px;
+    border-radius: 16px;
+    margin: 70px auto;
+}
+.container-box{
+    padding:80px 97px;
+}
+.content{
+    margin:0px 48px 47px;
+}
 
+.first-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 100px;
+}
+
+.heading {
+    color: rgb(13, 19, 33);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.shared-button {
+    border: 1px solid black;
+    opacity: 0.7;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding: 12px 20px;
+    margin-top: 20px;
+}
+
+.text {
+    color: rgb(13, 19, 33);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.first-block h3, .second-block h3, .third-block h3 {
+    color: #0D1321;
+    font-size: 22px;
+    font-weight: 800px;
+    text-align: left;
+    line-height: 35px;
+
+}
+
+.first-block p, .second-block p, .third-block p {
+    color: #0D1321;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.second-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 48px;
+}
+.third-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+    gap: 130px;
+}
+
+
+/* This is last section */
 .last-section {
     max-width: 1026px;
     height: 310px;
@@ -114,6 +199,7 @@ body {
     opacity: 0.7;
 }
 
+/* footer style */
 .footer-content {
     display: flex;
     justify-content: center;
