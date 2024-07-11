@@ -87,11 +87,13 @@ body {
     border-radius: 16px;
     margin: 70px auto;
 }
-.container-box{
-    padding:80px 97px;
+
+.container-box {
+    padding: 80px 97px;
 }
-.content{
-    margin:0px 48px 47px;
+
+.content {
+    margin: 0px 48px 47px;
 }
 
 .first-content {
@@ -131,7 +133,9 @@ body {
     text-align: center;
 }
 
-.first-block h3, .second-block h3, .third-block h3 {
+.first-block h3,
+.second-block h3,
+.third-block h3 {
     color: #0D1321;
     font-size: 22px;
     font-weight: 800px;
@@ -140,7 +144,9 @@ body {
 
 }
 
-.first-block p, .second-block p, .third-block p {
+.first-block p,
+.second-block p,
+.third-block p {
     color: #0D1321;
     opacity: 0.7;
     font-size: 14px;
@@ -156,7 +162,8 @@ body {
     padding: 48px;
     gap: 48px;
 }
-.third-content{
+
+.third-content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -216,4 +223,45 @@ body {
 .icon {
     width: 36px;
     height: 36px;
+}
+
+/* inspired section style */
+.inspired {
+    width: 1000px;
+    height: 700px;
+    margin: 81px auto;
+    border: 1px solid black;
+
+}
+
+.heading-1 {
+    color: #0D1321;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.paragraph {
+    color: #0D1321;
+    opacity: 0.7;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 24px;
+
+}
+
+.video {
+    margin-top: 40px;
+    border-top: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    text-align: center;
+
+}
+
+.frame {
+    margin: 10px auto;
+    border: 1px solid black;
+    border-radius: 16px;
 }
